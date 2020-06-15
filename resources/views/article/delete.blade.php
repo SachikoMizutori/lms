@@ -5,7 +5,8 @@
 
     <div class="alert alert-primary" role="alert">
       削除しました。
-      <a href="/" class="btn btn-primary">一覧に戻る</a>
+      <a href="/index" class="btn btn-primary">一覧に戻る</a>
+      <meta http-equiv="refresh" content=" 2; url='index'">
     </div>
   </body>
 </html>

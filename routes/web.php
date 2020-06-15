@@ -22,12 +22,6 @@ Route::post('edit', 'ArticleController@update');
 Route::get('delete/{id}', 'ArticleController@show');
 Route::post('delete', 'ArticleController@delete');
 
-Route::get('delete/{id}', 'CommentController@index');
-Route::get('delete/{id}', 'CommentController@create');
-Route::post('delete/{id}', 'CommentController@store');
-Route::post('delete/{id}', 'CommentController@show');
-Route::post('delete/{id}', 'CommentController@delete');
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

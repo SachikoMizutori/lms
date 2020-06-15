@@ -16,15 +16,5 @@
       </div>
       <button type="submit" class="btn btn-primary">記事の削除</button>
     </form>
-
-    <form method="post" action="/delete">>
-      {{ csrf_field() }}
-      <div class="comment">
-        <label for="commentInput">みんなのコメント</label>
-        <input type="text" class="form-control" id="commentInput" name="comment">
-      </div>
-      <button type="submit" class="btn btn-primary">送信</button>
-    </form>
-    <textarea readonly class="form-control" id="commentInput" rows="3" name="comment">{{ $comment->comment }}</textarea>
   </body>
 </html>
